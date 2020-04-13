@@ -25,11 +25,6 @@
     <!-- LATER: List of modules in this build -->
     <module>ac.soton.eventb.prototypes.updateSite</module>
     <module>../EventBUtils</module>
-    <!-- <module>org.rodinp.licence</module> -->
-    <!-- <module>../EventBUtils/ch.ethz.eventb.utils</module> -->
-    <!-- <module>../EventBUtils/ch.ethz.eventb.utils-feature</module> -->
-    <!-- <module>../EventBUtils/ch.ethz.eventb.utils.tests</module> -->
-    <!-- <module>../EventBUtils/ch.ethz.eventb.utils.tests.feature</module> -->
-    <!-- <module>../EventBUtils/ch.ethz.eventb.utils.sdk</module> -->
+    <module>../EMF_EventB</module>
   </modules>
 </project>

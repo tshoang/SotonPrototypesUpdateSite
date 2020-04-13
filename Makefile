@@ -1,5 +1,5 @@
 # Get the Rodin Licence
-repos = RodinLicence EventBUtils
+repos = RodinLicence EventBUtils EMF_EventB
 location = ../
 targets = $(addprefix $(location), $(repos))
 
