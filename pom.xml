@@ -1,0 +1,35 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <!-- REQUIRED: Group ID is the feature ID -->
+  <groupId>ac.soton.eventb</groupId>
+  <!-- ID of this artifact -->
+  <artifactId>prototypes.updateSite.root</artifactId>
+  <!-- REQUIRED: Name and description of this this root build -->
+  <name>Event-B Prototypes Update Site Root</name>
+  <description>Root build for prototypes update site</description>
+  <!-- REQUIRED: Version number (using semantic versioning) -->
+  <version>0.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <parent>
+    <!-- REQUIRED: Group ID is the feature ID -->
+    <groupId>ac.soton.eventb</groupId>
+    <!-- Name of the release engineering artifact -->
+    <artifactId>prototypes.updateSite.releng</artifactId>
+    <!-- REQUIRED: Version number of the release engineering artifact -->
+    <version>0.1.0-SNAPSHOT</version>
+    <!-- REQUIRED: Relative path to the release engineering artifact -->
+    <relativePath>./ac.soton.eventb.prototypes.updateSite.releng</relativePath>
+  </parent>
+
+  <modules>
+    <!-- LATER: List of modules in this build -->
+    <module>ac.soton.eventb.prototypes.updateSite</module>
+    <module>../EventBUtils</module>
+    <!-- <module>org.rodinp.licence</module> -->
+    <!-- <module>../EventBUtils/ch.ethz.eventb.utils</module> -->
+    <!-- <module>../EventBUtils/ch.ethz.eventb.utils-feature</module> -->
+    <!-- <module>../EventBUtils/ch.ethz.eventb.utils.tests</module> -->
+    <!-- <module>../EventBUtils/ch.ethz.eventb.utils.tests.feature</module> -->
+    <!-- <module>../EventBUtils/ch.ethz.eventb.utils.sdk</module> -->
+  </modules>
+</project>

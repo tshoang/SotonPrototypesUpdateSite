@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="ch.ethz.eventb.utils_feature">
+      <category name="ac.soton.prototypes.updateSite.utilities"/>
+   </feature>
+   <feature id="ch.ethz.eventb.utils.tests.feature">
+      <category name="ac.soton.prototypes.updateSite.utilities"/>
+   </feature>
+   <feature id="ch.ethz.eventb.utils.sdk">
+      <category name="ac.soton.prototypes.updateSite.utilities"/>
+   </feature>
+   <category-def name="ac.soton.prototypes.updateSite.comp_and_decomp" label="Composition and Decomposition">
+      <description>
+         Tools that support for model composition and decomposition.
+      </description>
+   </category-def>
+   <category-def name="ac.soton.prototypes.updateSite.editors" label="Editors">
+      <description>
+         Tools for model editing within Rodin.
+      </description>
+   </category-def>
+   <category-def name="ac.soton.prototypes.updateSite.frameworks" label="Frameworks">
+      <description>
+         Provides support for EMF based Event-B tools. Persistence into the Rodin database is provided.
+      </description>
+   </category-def>
+   <category-def name="ac.soton.prototypes.updateSite.model_ext" label="Modelling Extensions">
+      <description>
+         Extensions to the Event-B modelling notation
+      </description>
+   </category-def>
+   <category-def name="ac.soton.prototypes.updateSite.utilities" label="Utilities">
+      <description>
+         Utility tools that assist modelling:
+        a) Event-B2LaTeX
+            Generates a LaTeX file with a textual representation of the selected Machine or Context. (The style files, bsymb.sty and lastpage.sty are needed to process the output).
+        b) Renaming/refactoring
+          This plug-in renames elements that exist in one of the Event-B file types: Machine, Context or ComposedMachine. The renaming is applied to the file where the element belongs and it is also propagated through the related files.
+          The renaming/refactory plugin uses the RodinIndexer plugin to search for clashes and to rename elements. The elements to be renamed can be configurated using these extension-points:
+    - ac.ddorf.refactory.renameRefactoring
+    - ac.ddorf.refactory.renameRefactoringFiles
+   A goal to be achieved is to rename proof obligations when a refactory occurs (not available in this version).
+   To rename/refactory, you need to select the element in the Event-B explorer and by right-clicking, an option ‘Refactory...‘ should be shown. By selecting that option, you follow a wizard where a new name will be asked and a
+   report will be generated in case of clashes. By clicking ‘Finish‘ in the wizard, the renaming is applied and all the related files are saved reflecting the renaming.
+  c) Teamwork
+   Support for sharing models in an svn repository.
+  d) Project Diagram
+   Displays a diagram of selected Rodin project.
+  e) Code Generators
+   Utilities that allow executable program to be generated from a model.
+      </description>
+   </category-def>
+   <category-def name="ac.soton.prototypes.updateSite.validation" label="Validation">
+      <description>
+         Tools for validation (e.g. Simlators and Animators)
+      </description>
+   </category-def>
+   <category-def name="ac.soton.prototypes.updateSite.verification" label="Verification">
+      <description>
+         Tools for verification (prover extensions)
+      </description>
+   </category-def>
+</site>
