@@ -42,6 +42,9 @@
    <feature id="ac.soton.eventb.emf.containment.feature">
       <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
+   <feature id="ac.soton.eventb.emf.inclusion.feature">
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
+   </feature>
    <category-def name="ac.soton.prototypes.updateSite.comp_and_decomp" label="Composition and Decomposition">
       <description>
          Tools that support for model composition and decomposition.
