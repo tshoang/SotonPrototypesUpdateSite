@@ -24,8 +24,13 @@
   <modules>
     <!-- LATER: List of modules in this build -->
     <module>ac.soton.eventb.prototypes.updateSite</module>
+    <!-- 0 -->
     <module>../EventBUtils</module>
+    <!-- 1 -->
     <module>../EMF_EventB</module>
+    <module>../EMF_Translator</module>
+    <!-- 2 -->
     <module>../EMF_EventB_Extensions</module>
+    <module>../EventB_Translator_Support</module>
   </modules>
 </project>
