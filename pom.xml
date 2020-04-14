@@ -32,5 +32,7 @@
     <!-- 2 -->
     <module>../EMF_EventB_Extensions</module>
     <module>../EventB_Translator_Support</module>
+    <!-- 3 -->
+    <module>../iUML_B_Diagrams</module>
   </modules>
 </project>

@@ -33,6 +33,12 @@
    <feature id="ac.soton.emf.translator.eventb.sdk">
       <category name="ac.soton.prototypes.updateSite.utilities"/>
    </feature>
+   <feature id="ac.soton.eventb.emf.diagrams.feature">
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.diagrams.sdk">
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
+   </feature>
    <category-def name="ac.soton.prototypes.updateSite.comp_and_decomp" label="Composition and Decomposition">
       <description>
          Tools that support for model composition and decomposition.
