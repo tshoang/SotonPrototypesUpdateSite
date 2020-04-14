@@ -34,5 +34,7 @@
     <module>../EventB_Translator_Support</module>
     <!-- 3 -->
     <module>../iUML_B_Diagrams</module>
+    <!-- 4 -->
+    <module>../EMF_Containment</module>
   </modules>
 </project>
