@@ -35,6 +35,7 @@
     <!-- 3 -->
     <module>../iUML_B_Diagrams</module>
     <module>../EMF_Inclusion</module>
+    <module>../Records</module>
     <!-- 4 -->
     <module>../EMF_Containment</module>
   </modules>
