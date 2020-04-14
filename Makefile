@@ -1,5 +1,5 @@
 # Get the Rodin Licence
-repos = RodinLicence EventBUtils EMF_EventB EMF_Translator EMF_EventB_Extensions EventB_Translator_Support
+repos = RodinLicence EventBUtils EMF_EventB EMF_Translator EMF_EventB_Extensions EventB_Translator_Support iUML_B_Diagrams
 location = ../
 targets = $(addprefix $(location), $(repos))
 
@@ -15,4 +15,7 @@ clean: | $(targets)
 # Use Maven to clean
 	mvn clean
 
-
+deploy:
+	rm -r ../blog-files/source/media_bin/ac.soton.eventb.prototypes.updateSite
+	cp -r ac.soton.eventb.prototypes.updateSite/target/repository ../blog-files/source/media_bin/ac.soton.eventb.prototypes.updateSite
+	cd ../blog-files;make deploy
