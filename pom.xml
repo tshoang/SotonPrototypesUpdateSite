@@ -38,5 +38,6 @@
     <module>../Records</module>
     <!-- 4 -->
     <module>../EMF_Containment</module>
+    <module>../iUML_B_StateMachineDiagrams</module>
   </modules>
 </project>
