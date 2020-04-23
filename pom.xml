@@ -39,5 +39,7 @@
     <!-- 4 -->
     <module>../EMF_Containment</module>
     <module>../iUML_B_StateMachineDiagrams</module>
+    <!-- 5 -->
+    <module>../XEventB</module>
   </modules>
 </project>

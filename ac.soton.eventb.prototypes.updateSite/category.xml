@@ -54,6 +54,9 @@
    <feature id="ac.soton.eventb.statemachines.sdk">
       <category name="ac.soton.prototypes.updateSite.model_ext"/>
    </feature>
+   <feature id="ac.soton.xeventb.feature">
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
+   </feature>
    <category-def name="ac.soton.prototypes.updateSite.comp_and_decomp" label="Composition and Decomposition">
       <description>
          Tools that support for model composition and decomposition.

@@ -27,6 +27,8 @@
     <emf_validation-repo.url>http://download.eclipse.org/modeling/emf/validation/updates/releases</emf_validation-repo.url>
     <!-- URL for GEF Legacy Update site -->
     <gef_legacy-repo.url>http://download.eclipse.org/tools/gef/updates/legacy/releases/</gef_legacy-repo.url>
+    <!-- URL for GMF Tooling Update site -->
+    <gmf_tooling_milestones-repo.url>https://download.eclipse.org/modeling/gmp/gmf-tooling/updates/releases/</gmf_tooling_milestones-repo.url>
     <!-- URL for GMF Runtime Milestones Update site -->
     <gmf_runtime_milestones-repo.url>https://download.eclipse.org/modeling/gmp/gmf-runtime/updates/releases/</gmf_runtime_milestones-repo.url>
     <!-- URL for GMF Notation Milestones Update site -->
@@ -37,6 +39,10 @@
     <!-- <soton_prototype-repo.url>http://eventb-soton.github.io/media_bin/ac.soton.eventb.prototypes.updateSite</soton_prototype-repo.url> -->
     <!-- URL for the Rodin Licence Update site -->
     <rodin_licence-repo.url>http://eventb-soton.github.io/media_bin/org.rodinp.licence.updateSite</rodin_licence-repo.url>
+    <!-- URL for the OCL Update site -->
+    <ocl-repo.url>http://download.eclipse.org/modeling/mdt/ocl/updates</ocl-repo.url>
+    <!-- URL for the XText Update site -->
+    <xtext-repo.url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</xtext-repo.url>
   </properties>
 
   <repositories>
@@ -77,6 +83,12 @@
       <url>${gef_legacy-repo.url}</url>
       <layout>p2</layout>
     </repository>
+    <!-- GMF Tooling milestones repository -->
+    <repository>
+      <id>gmf-tooling-milestones</id>
+      <url>${gmf_tooling_milestones-repo.url}</url>
+      <layout>p2</layout>
+    </repository>
     <!-- GMF Runtime milestones repository -->
     <repository>
       <id>gmf-runtime-milestones</id>
@@ -105,6 +117,18 @@
     <repository>
       <id>rodin-licence</id>
       <url>${rodin_licence-repo.url}</url>
+      <layout>p2</layout>
+    </repository>
+    <!-- OCL repository -->
+    <repository>
+      <id>ocl</id>
+      <url>${ocl-repo.url}</url>
+      <layout>p2</layout>
+    </repository>
+    <!-- XText repository -->
+    <repository>
+      <id>xtext</id>
+      <url>${xtext-repo.url}</url>
       <layout>p2</layout>
     </repository>
   </repositories>
