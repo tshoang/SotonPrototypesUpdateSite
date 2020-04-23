@@ -26,6 +26,7 @@
     <module>ac.soton.eventb.prototypes.updateSite</module>
     <!-- 0 -->
     <module>../EventBUtils</module>
+    <module>../EventB_ProB_Support</module>
     <!-- 1 -->
     <module>../EMF_EventB</module>
     <module>../EMF_Translator</module>

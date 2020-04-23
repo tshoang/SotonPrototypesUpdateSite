@@ -57,6 +57,12 @@
    <feature id="ac.soton.xeventb.feature">
       <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
+   <feature id="ac.soton.eventb.probsupport.feature">
+      <category name="ac.soton.prototypes.updateSite.utilities"/>
+   </feature>
+   <feature id="ac.soton.eventb.probsupport.sdk">
+      <category name="ac.soton.prototypes.updateSite.utilities"/>
+   </feature>
    <category-def name="ac.soton.prototypes.updateSite.comp_and_decomp" label="Composition and Decomposition">
       <description>
          Tools that support for model composition and decomposition.
