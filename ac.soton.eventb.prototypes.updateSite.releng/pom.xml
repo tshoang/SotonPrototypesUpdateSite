@@ -43,6 +43,8 @@
     <ocl-repo.url>http://download.eclipse.org/modeling/mdt/ocl/updates</ocl-repo.url>
     <!-- URL for the XText Update site -->
     <xtext-repo.url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</xtext-repo.url>
+    <!-- URL for ProB -->
+    <prob-repo.url>http://www.stups.hhu.de/prob_updates_rodin3</prob-repo.url>
   </properties>
 
   <repositories>
@@ -129,6 +131,12 @@
     <repository>
       <id>xtext</id>
       <url>${xtext-repo.url}</url>
+      <layout>p2</layout>
+    </repository>
+    <!-- ProB repository -->
+    <repository>
+      <id>ProB</id>
+      <url>${prob-repo.url}</url>
       <layout>p2</layout>
     </repository>
   </repositories>
