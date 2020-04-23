@@ -29,6 +29,7 @@
     <module>../EventB_ProB_Support</module>
     <!-- 1 -->
     <module>../EMF_EventB</module>
+    <module>../CODA_Oracle</module>
     <module>../EMF_Translator</module>
     <!-- 2 -->
     <module>../EMF_EventB_Extensions</module>
