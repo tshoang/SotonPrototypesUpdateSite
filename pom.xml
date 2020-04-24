@@ -44,5 +44,6 @@
     <!-- 5 -->
     <module>../XEventB</module>
     <module>../iUML_B_StateMachineAnimation1</module>
+    <module>../ScenarioChecker</module>
   </modules>
 </project>

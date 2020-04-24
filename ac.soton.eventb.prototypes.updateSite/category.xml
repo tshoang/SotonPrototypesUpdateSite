@@ -75,6 +75,12 @@
    <feature id="ac.soton.eventb.statemachines.animation.sdk">
       <category name="ac.soton.prototypes.updateSite.validation"/>
    </feature>
+   <feature id="ac.soton.eventb.scenariochecker.feature">
+      <category name="ac.soton.prototypes.updateSite.validation"/>
+   </feature>
+   <feature id="ac.soton.eventb.scenariochecker.sdk">
+      <category name="ac.soton.prototypes.updateSite.validation"/>
+   </feature>
    <category-def name="ac.soton.prototypes.updateSite.comp_and_decomp" label="Composition and Decomposition">
       <description>
          Tools that support for model composition and decomposition.
