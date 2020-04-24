@@ -43,5 +43,6 @@
     <module>../iUML_B_StateMachineDiagrams</module>
     <!-- 5 -->
     <module>../XEventB</module>
+    <module>../iUML_B_StateMachineAnimation1</module>
   </modules>
 </project>
