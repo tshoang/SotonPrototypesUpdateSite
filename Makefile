@@ -16,6 +16,6 @@ clean: | $(targets)
 	mvn clean
 
 deploy:
-	rm -r ../blog-files/source/media_bin/ac.soton.eventb.prototypes.updateSite
-	cp -r ac.soton.eventb.prototypes.updateSite/target/repository ../blog-files/source/media_bin/ac.soton.eventb.prototypes.updateSite
-	cd ../blog-files;make deploy
+	rm -r ../eventB-Soton.github.io/media_bin/ac.soton.eventb.prototypes.updateSite
+	cp -r ac.soton.eventb.prototypes.updateSite/target/repository ../eventB-Soton.github.io/media_bin/ac.soton.eventb.prototypes.updateSite
+	cd ../eventB-Soton.github.io;git pull;git add media_bin/ac.soton.eventb.prototypes.updateSite;git commit -m "Update Prototype Update Site";git push
