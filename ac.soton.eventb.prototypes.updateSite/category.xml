@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <feature id="ch.ethz.eventb.utils_feature">
-      <category name="ac.soton.prototypes.updateSite.utilities"/>
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ch.ethz.eventb.utils.tests.feature">
-      <category name="ac.soton.prototypes.updateSite.utilities"/>
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ch.ethz.eventb.utils.sdk">
-      <category name="ac.soton.prototypes.updateSite.utilities"/>
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="org.eventb.emf.feature">
       <category name="ac.soton.prototypes.updateSite.frameworks"/>
@@ -22,16 +22,16 @@
       <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ac.soton.emf.translator.feature">
-      <category name="ac.soton.prototypes.updateSite.utilities"/>
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ac.soton.emf.translator.sdk">
-      <category name="ac.soton.prototypes.updateSite.utilities"/>
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ac.soton.emf.translator.eventb.feature">
-      <category name="ac.soton.prototypes.updateSite.utilities"/>
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ac.soton.emf.translator.eventb.sdk">
-      <category name="ac.soton.prototypes.updateSite.utilities"/>
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ac.soton.eventb.emf.diagrams.feature">
       <category name="ac.soton.prototypes.updateSite.frameworks"/>
@@ -49,19 +49,19 @@
       <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ac.soton.eventb.statemachines.feature">
-      <category name="ac.soton.prototypes.updateSite.model_ext"/>
+      <category name="ac.soton.prototypes.updateSite.umlb"/>
    </feature>
    <feature id="ac.soton.eventb.statemachines.sdk">
-      <category name="ac.soton.prototypes.updateSite.model_ext"/>
+      <category name="ac.soton.prototypes.updateSite.umlb"/>
    </feature>
    <feature id="ac.soton.xeventb.feature">
       <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ac.soton.eventb.probsupport.feature">
-      <category name="ac.soton.prototypes.updateSite.utilities"/>
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ac.soton.eventb.probsupport.sdk">
-      <category name="ac.soton.prototypes.updateSite.utilities"/>
+      <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
    <feature id="ac.soton.eventb.emf.oracle.feature">
       <category name="ac.soton.prototypes.updateSite.frameworks"/>
@@ -69,38 +69,13 @@
    <feature id="ac.soton.eventb.emf.oracle.sdk">
       <category name="ac.soton.prototypes.updateSite.frameworks"/>
    </feature>
-   <feature id="ac.soton.eventb.statemachines.animation.feature">
-      <category name="ac.soton.prototypes.updateSite.validation"/>
-   </feature>
-   <feature id="ac.soton.eventb.statemachines.animation.sdk">
-      <category name="ac.soton.prototypes.updateSite.validation"/>
-   </feature>
-   <feature id="ac.soton.eventb.scenariochecker.feature">
-      <category name="ac.soton.prototypes.updateSite.validation"/>
-   </feature>
-   <feature id="ac.soton.eventb.scenariochecker.sdk">
-      <category name="ac.soton.prototypes.updateSite.validation"/>
-   </feature>
-   <category-def name="ac.soton.prototypes.updateSite.comp_and_decomp" label="Composition and Decomposition">
-      <description>
-         Tools that support for model composition and decomposition.
-      </description>
-   </category-def>
-   <category-def name="ac.soton.prototypes.updateSite.editors" label="Editors">
-      <description>
-         Tools for model editing within Rodin.
-      </description>
-   </category-def>
-   <category-def name="ac.soton.prototypes.updateSite.frameworks" label="Frameworks">
-      <description>
-         Provides support for EMF based Event-B tools. Persistence into the Rodin database is provided.
-      </description>
-   </category-def>
-   <category-def name="ac.soton.prototypes.updateSite.model_ext" label="Modelling Extensions">
+   <category-def name="ac.soton.prototypes.updateSite.umlb" label="UML-B">
       <description>
          Extensions to the Event-B modelling notation
       </description>
    </category-def>
+   <category-def name="ac.soton.prototypes.updateSite.coda" label="CODA"/>
+   <category-def name="ac.soton.prototypes.updateSite.camillex" label="CamilleX"/>
    <category-def name="ac.soton.prototypes.updateSite.utilities" label="Utilities">
       <description>
          Utility tools that assist modelling:
@@ -122,14 +97,9 @@
    Utilities that allow executable program to be generated from a model.
       </description>
    </category-def>
-   <category-def name="ac.soton.prototypes.updateSite.validation" label="Validation">
+   <category-def name="ac.soton.prototypes.updateSite.frameworks" label="Frameworks">
       <description>
-         Tools for validation (e.g. Simlators and Animators)
-      </description>
-   </category-def>
-   <category-def name="ac.soton.prototypes.updateSite.verification" label="Verification">
-      <description>
-         Tools for verification (prover extensions)
+         Provides support for EMF based Event-B tools. Persistence into the Rodin database is provided.
       </description>
    </category-def>
 </site>
