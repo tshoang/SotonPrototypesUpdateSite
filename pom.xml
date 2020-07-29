@@ -3,10 +3,10 @@
   <!-- REQUIRED: Group ID is the feature ID -->
   <groupId>ac.soton.eventb</groupId>
   <!-- ID of this artifact -->
-  <artifactId>prototypes.updateSite.root</artifactId>
+  <artifactId>latest.updateSite.root</artifactId>
   <!-- REQUIRED: Name and description of this this root build -->
-  <name>Event-B Prototypes Update Site Root</name>
-  <description>Root build for prototypes update site</description>
+  <name>Event-B Latest Update Site Root</name>
+  <description>Root build for latest update site</description>
   <!-- REQUIRED: Version number (using semantic versioning) -->
   <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -14,16 +14,16 @@
     <!-- REQUIRED: Group ID is the feature ID -->
     <groupId>ac.soton.eventb</groupId>
     <!-- Name of the release engineering artifact -->
-    <artifactId>prototypes.updateSite.releng</artifactId>
+    <artifactId>latest.updateSite.releng</artifactId>
     <!-- REQUIRED: Version number of the release engineering artifact -->
     <version>0.1.0-SNAPSHOT</version>
     <!-- REQUIRED: Relative path to the release engineering artifact -->
-    <relativePath>./ac.soton.eventb.prototypes.updateSite.releng</relativePath>
+    <relativePath>./ac.soton.eventb.latest.updateSite.releng</relativePath>
   </parent>
 
   <modules>
     <!-- LATER: List of modules in this build -->
-    <module>ac.soton.eventb.prototypes.updateSite</module>
+    <module>ac.soton.eventb.latest.updateSite</module>
     <!-- 0 -->
     <module>../EventBUtils</module>
     <module>../EventB_ProB_Support</module>

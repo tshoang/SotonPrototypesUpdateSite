@@ -4,17 +4,17 @@
   
   <parent>
     <groupId>ac.soton.eventb</groupId>
-    <artifactId>prototypes.updateSite.releng</artifactId>
+    <artifactId>latest.updateSite.releng</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <relativePath>../ac.soton.eventb.prototypes.updateSite.releng/pom.xml</relativePath>
+    <relativePath>../ac.soton.eventb.latest.updateSite.releng/pom.xml</relativePath>
   </parent>
   
   <groupId>ac.soton.eventb</groupId>
-  <artifactId>prototypes.updateSite</artifactId>
+  <artifactId>latest.updateSite</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <!-- REQUIRED: Name and description of this this root build -->
-  <name>Event-B Prototypes Update Site</name>
-  <description>Prototypes update site</description>
+  <name>Event-B Latest Update Site</name>
+  <description>Latest update site</description>
 
   <packaging>eclipse-repository</packaging>
 

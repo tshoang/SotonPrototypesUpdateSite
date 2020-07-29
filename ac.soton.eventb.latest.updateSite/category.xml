@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="ch.ethz.eventb.utils_feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ch.ethz.eventb.utils.tests.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ch.ethz.eventb.utils.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="org.eventb.emf.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="org.eventb.emf.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.core.extension.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.core.extension.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.emf.translator.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.emf.translator.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.emf.translator.eventb.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.emf.translator.eventb.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.diagrams.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.diagrams.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.containment.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.inclusion.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.record.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.statemachines.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.statemachines.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.xeventb.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.probsupport.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.probsupport.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.oracle.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.eventb.emf.oracle.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.xeventb.sdk">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <feature id="ac.soton.xeventb.tests.feature">
+      <category name="ac.soton.eventb.latest.updateSite"/>
+   </feature>
+   <category-def name="ac.soton.eventb.latest.updateSite" label="(Latest)">
+      <description>
+         Latest builds of our features which might include prototypes.
+      </description>
+   </category-def>
+</site>

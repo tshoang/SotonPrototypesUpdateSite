@@ -3,7 +3,7 @@
   <!-- REQUIRED: Group ID is the feature ID -->
   <groupId>ac.soton.eventb</groupId>
   <!-- ID of this artifact -->
-  <artifactId>prototypes.updateSite.releng</artifactId>
+  <artifactId>latest.updateSite.releng</artifactId>
   <!-- REQUIRED: Version number (using semantic versioning) -->
   <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -35,8 +35,8 @@
     <gmf_notation_milestones-repo.url>https://download.eclipse.org/modeling/gmp/gmf-notation/updates/releases/</gmf_notation_milestones-repo.url>
     <!-- <!-\- URL for the Rodin Update site -\-> -->
     <!-- <rodin_update_site-repo.url>http://rodin-b-sharp.sourceforge.net/updates</rodin_update_site-repo.url> -->
-    <!-- <!-\- URL for the Soton Prototype Update site -\-> -->
-    <!-- <soton_prototype-repo.url>http://eventb-soton.github.io/media_bin/ac.soton.eventb.prototypes.updateSite</soton_prototype-repo.url> -->
+    <!-- URL for the Soton Update site -->
+    <!-- <soton-repo.url>https://eventB-Soton.github.io/updateSite</prototype-repo.url> -->
     <!-- URL for the Rodin Licence Update site -->
     <rodin_licence-repo.url>http://eventb-soton.github.io/media_bin/org.rodinp.licence.updateSite</rodin_licence-repo.url>
     <!-- URL for the OCL Update site -->
@@ -109,10 +109,10 @@
     <!--   <url>${rodin_update_site-repo.url}</url> -->
     <!--   <layout>p2</layout> -->
     <!-- </repository> -->
-    <!-- <!-\- Soton Prototype repository -\-> -->
+    <!-- <!-\- Soton repository -\-> -->
     <!-- <repository> -->
-    <!--   <id>soton-prototype</id> -->
-    <!--   <url>${soton_prototype-repo.url}</url> -->
+    <!--   <id>soton</id> -->
+    <!--   <url>${soton-repo.url}</url> -->
     <!--   <layout>p2</layout> -->
     <!-- </repository> -->
     <!-- Rodin Licence repository -->
